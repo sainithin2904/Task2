@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://stroebelautomotive.com/wp-content/uploads/2020/12/AdobeStock_377905344-768x576.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    margin: 0;
+}
+header p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.cta {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.features, .introduction {
+    padding: 50px 20px;
+    text-align: center;
+}
+.features h2, .introduction h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.features p, .introduction p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.feature-item {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
